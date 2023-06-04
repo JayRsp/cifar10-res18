@@ -63,7 +63,7 @@ def run():
         criterion = nn.CrossEntropyLoss()
         optimizer = optim.Adam(model.parameters(), lr=lr)
         # Define the learning rate scheduler
-        scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.1)
+        scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=30, gamma=0.1)
 
         def train():
             model.train()
