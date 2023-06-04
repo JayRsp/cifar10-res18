@@ -3,9 +3,9 @@ import torchvision
 import torchvision.transforms as transforms
 import torch.nn as nn
 import timm
-from torch import multiprocessing
 from tqdm import tqdm
 import torch.nn.functional as F
+from torch import multiprocessing
 
 model_num = 2
 lr = 1e-4
