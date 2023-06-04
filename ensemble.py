@@ -2,8 +2,8 @@ import torch
 import torchvision
 import torchvision.transforms as transforms
 import torch.nn as nn
-import timm
 from tqdm import tqdm
+import timm
 import torch.nn.functional as F
 from torch import multiprocessing
 
